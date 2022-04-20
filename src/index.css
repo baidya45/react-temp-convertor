@@ -1,0 +1,76 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(13, 13, 13);
+  /* position: absolute; */
+}
+header h2 {
+  border: 10px solid greenyellow;
+  display: inline-block;
+  background-color: bisque;
+  border-radius: 20% 80% 45% 55% / 49% 52% 48% 51%;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  border: 10px solid;
+  border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+label{
+  display: flex;
+  justify-content: space-around;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: navy;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+input {
+  border: none;
+  margin-bottom: 8px;
+  line-height: 3vh;
+  /* background-color: rgba(250, 244, 229, 0.938); */
+  border-bottom: 1.5px solid black;
+  padding: 3px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  border-radius: 45% 55% 99% 1% / 10% 31% 69% 90%  ;
+}
+input:hover {
+  /* border: none; */
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: rgb(165, 154, 154);
+}
