@@ -50,13 +50,13 @@ function Convert(){
     return(
         <>
             <div className='main'>
-               <label>Celcius:-
+               <label><span>Celcius:-</span>
                <input type="number" name='c' value={c} onChange={update}/>
                </label> 
-               <label>Ferhenite:-
+               <label><span>Ferhenite:-</span>
                <input type="number" name='f' value={f} onChange={update}/>
                </label> 
-               <label>Kelvin:-
+               <label><span>Kelvin:-</span>
                <input type="number" name='k' value={k} onChange={update}/>
                </label> 
                
